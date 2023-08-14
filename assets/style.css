@@ -1,0 +1,347 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.d_bg{
+    background-color: #f7f9ff;
+}
+.section_title h2{
+    font-size: 45px;
+    line-height: 63px;
+    font-weight: 400;
+}
+.section_title p{
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 300;
+}
+.float_clear{
+    position: relative;
+}
+.float_clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+
+
+/* Header CSS  */
+.s_logo:hover span{
+    color: #cccccc;
+}
+.s_logo img{
+    width: 100px;
+    height: auto;
+}
+.s_logo span{
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.s_menu{
+    font-size: 20px !important;
+    line-height: 30px !important;
+    font-weight: 400 !important;
+    color: #0c0c17 !important;
+}
+.h_btn{
+    padding: 10px 30px;
+    color: #6278df;
+    border-color: #6278df;
+    transition: .8s;
+}
+.h_btn:hover{
+    background-color: #6278df;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Hero CSS  */
+.hero{
+    background-image: url(../assets/img/mbr-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.hero::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero_item h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+    color: #ffffff;
+}
+.hero_item h5 {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.hero_btn {
+    font-size: 21px;
+    line-height: 31px;
+    color: #ffffff;
+    background-color: #5ba533;
+    font-weight: 600;
+    padding: 9px 55px;
+}
+.hero_btn:hover{
+    color: #6278df;
+    background-color: #ffffff;
+    border-color: #6278df;
+    transition: .8s;
+}
+
+/* About Css  */
+.about_text{
+    margin-top: 120px;
+}
+
+
+/* Service CSS  */
+.service_item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.service_img{
+    width: 40%;
+    height: 300px;
+}
+.service_img img{
+    max-width: 100%;
+    height: 100%;
+}
+.service_text{
+    width: 60%;
+    padding: 50px 30px;
+}
+.service_text h4{
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 500;
+}
+.service_text p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #767676;
+    font-weight: 400;
+}
+
+/* Portfolio CSS  */
+.portfolio_img:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+.portfolio_img a{
+    position: relative;
+    display: block;
+}
+.portfolio_img a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #6279dfa4;
+    visibility: hidden;
+    opacity: 0;
+    transition: .9s;
+}
+
+/* Package CSS  */
+.packages{
+    margin-top: 70px;
+}
+.packages_item{
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.packages_item h2{
+    font-size: 45px;
+    line-height: 63px;
+    font-weight: 500;
+    color: #0c0c17;
+}
+.packages_item p{
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    color: #767676;
+}
+.packages_item ul{
+    padding-left: 0px;
+}
+.packages_item ul li{
+    list-style: none;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    color: #767676;
+    margin: 20px 0px;
+}
+.packages_item ul li span{
+    color: #6278df;
+    width: 40px;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: bold;
+}
+.package_btn a {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+}
+
+/* Testimonial CSS  */
+.testimonial_item h5 {
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #767676;
+}
+.testimonial_item h2 {
+    font-size: 45px;
+    line-height: 63px;
+    font-weight: 400;
+    color: #000000;
+}
+.testimonial_item span {
+    font-size: 65px;
+    color: #76767630;
+}
+.testimonial_item p {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    color: #767676;
+    margin-bottom: 40px;
+}
+.testimonial_bottom{
+    width: 250px;
+    margin: auto;
+}
+.testimonial_bottom img{
+    width: 100px;
+}
+
+.text_bottom_text h4{
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    font-weight: 500;
+}
+.test_bottom_text p{
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 400 !important;
+}
+/* Team CSS  */
+.team_head h2 {
+    font-size: 45px;
+    line-height: 63px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.team_head_text p {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 300;
+    color: #000000;
+}
+.t_btn {
+    font-size: 16px;
+    line-height: 22px;
+    color: #465052;
+    background-color: #ffffff;
+    border-color: #00000000;
+    font-weight: 600;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.t_btn:hover{
+    color: #ffffff;
+    background-color: #465052;
+    transition: .8s;
+    border: none;
+}
+.team_item img {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.team_contetnt{
+    margin-top: 100px;
+}
+.team_f_text h5 {
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+    font-weight: 500;
+    margin: 25px 0px;
+}
+.team_f_text h5 span{
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    font-weight: 300;
+}
+.team_f_text p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #767676;
+    font-weight: 300;
+}
+
+/* Contact CSS  */
+.c_btn{
+    padding: 20px 30px;
+    background-color: #6278df;
+    border: 2px solid #6278df;
+    color: #ffffff;
+    transition: .8s;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 500;
+}
+.c_btn:hover{
+    background-color: #ffffff;
+    color: #6278df;
+    border-color: #6278df;
+    border-radius: 10px;
+}
+
+/* Advertise Section  */
+.adv_d_btn {
+    font-size: 21px;
+    line-height: 31px;
+    color: #5ba533;
+    background-color: #ffffff;
+    font-weight: 600;
+    padding: 10px 50px;
+}
+.adv_d_btn:hover{
+    background-color: #5ba533;
+    color: #ffffff;
+    transition: .8s;
+}
